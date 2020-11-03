@@ -90,6 +90,7 @@ img {
 
 .main-section .image-container {
   max-width: 500px;
+  margin-top: 30px;
 }
 
 .main-section .sub-section img {
@@ -98,4 +99,26 @@ img {
 
 .main-section .sub-section {
   display: flex;
+}
+
+.main-section .search-input {
+  position: relative;
+  width: 100%;
+  max-width: 580px;
+}
+
+.main-section .search-input input {
+  width: 100%;
+  border: 1px solid #dfe1e5;
+  border-radius: 25px;
+  margin: 0 auto;
+  height: 45px;
+  padding: 0 10px;
+}
+
+.main-section .search-input input:focus,
+.main-section .search-input input:hover {
+  outline: none;
+  border-color: rgba(223, 225, 229, 0);
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
 }

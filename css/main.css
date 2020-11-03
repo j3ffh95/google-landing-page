@@ -108,8 +108,8 @@ img {
 .main-section .search-input {
   position: relative;
   width: 100%;
-  max-width: 450px;
-  margin-top: 2.5rem;
+  max-width: 480px;
+  margin-top: 1.5rem;
 }
 
 .main-section .search-input input {

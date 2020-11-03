@@ -203,3 +203,15 @@ img {
 #main-footer a {
   color: #5f6368;
 }
+
+/* Devices lower than 500px */
+@media screen and (max-width: 500px) {
+  #main-footer {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  #main-footer .footer-right {
+    margin-bottom: 2rem;
+  }
+}

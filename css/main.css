@@ -15,4 +15,15 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   color: var(--text-color);
+  font-size: 13px;
+}
+
+/* Basic Styles */
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
 }

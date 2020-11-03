@@ -56,7 +56,17 @@ ul {
   text-decoration: underline;
 }
 
-.right-section .blocks i {
+.right-section .blocks i,
+.right-section .user i {
   font-size: 1.4rem;
   color: #737373;
+}
+
+.right-section .user i {
+  color: black;
+  padding-right: 15px;
+}
+
+.right-section .blocks i:hover {
+  color: black;
 }

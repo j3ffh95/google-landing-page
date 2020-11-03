@@ -36,11 +36,13 @@ ul {
   padding: 20px 10px;
 }
 
-.main-nav .left-section nav ul {
+.main-nav .left-section nav ul,
+.main-nav .right-section nav ul {
   display: flex;
 }
 
-.main-nav .left-section nav ul li {
+.main-nav .left-section nav ul li,
+.main-nav .right-section nav ul li {
   display: inline-block;
   padding-left: 15px;
   padding-bottom: 0;
@@ -48,6 +50,7 @@ ul {
   word-spacing: 10px;
 }
 
-.left-section a:hover {
+.left-section a:hover,
+.right-section a:hover {
   text-decoration: underline;
 }

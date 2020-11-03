@@ -16,6 +16,7 @@ body {
   line-height: 1.5;
   color: var(--text-color);
   font-size: 13px;
+  background-color: #fff;
 }
 
 /* Basic Styles */
@@ -26,4 +27,11 @@ a {
 
 ul {
   list-style: none;
+}
+
+/* Navigation */
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
 }
